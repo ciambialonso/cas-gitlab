@@ -31,7 +31,7 @@ services:
         gitlab_rails['gitlab_shell_ssh_port'] = 8822
     ports:
       - "443:443"
-      - "8880:80"
+      - "1080:80"
       - "8822:22"
 # The logs directory can be mapped to the logs directory in the same director
 # as the docker-compose file using the following entry under volumes:
